@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "graphlit-mcp-server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "graphlit-mcp-server"
+            ],
+            "env": {
+                "GRAPHLIT_ORGANIZATION_ID": "a3b934a2-11f7-4219-9663-97be85ed1232",
+                "GRAPHLIT_ENVIRONMENT_ID": "e8cb48f8-b309-40c0-9ffb-54ac15055bf6",
+                "GRAPHLIT_JWT_SECRET": "7bLFonNMlpTFVC7PVjKP0IxOIMbHcDMa/bopBgtIoPY="
+            }
+        }
+    }
+}
